@@ -67,7 +67,7 @@ export function LinkedList() {
             let str = '';
             let currentNode = head;
             while (currentNode) {
-                str = str.concat('', `( ${currentNode.value.toString()} ) -> `);
+                str = str.concat('', '( ' + currentNode.value + ' ) -> ');
                 currentNode = currentNode.next;
             }
 
